@@ -1,0 +1,49 @@
+### LINES
+lines.linewidth : 1
+lines.markersize : 3
+
+### FONT
+font.family : sans-serif
+font.size : 10
+font.serif : Times New Roman, Times, DejaVu Serif, serif
+font.sans-serif : Arial, DejaVu Sans, sans-serif
+text.usetex : False
+mathtext.fontset : cm
+
+### AXES
+axes.linewidth : 1
+axes.labelsize : 10
+axes.labelpad : 4
+axes.formatter.limits: -3,4
+# red, blue, green, orange, purple, pink, gold, grey, black
+axes.prop_cycle : cycler(color=['cc0000','0000cc','009900','ff8000','6f00ff','e500e5','e5c100','858585','000000'])
+
+## TICKS
+xtick.top : True
+xtick.bottom : True
+xtick.labelsize : 9
+xtick.minor.visible : True
+xtick.direction : in
+
+ytick.left : True
+ytick.right : True
+ytick.labelsize : 9
+ytick.minor.visible : True
+ytick.direction : in
+
+## LEGEND
+legend.frameon : False
+legend.fontsize : 8
+legend.handletextpad : 0.2
+legend.handlelength : 1.8
+legend.columnspacing : 1
+legend.labelspacing : 0.3
+legend.borderpad : 0.2
+
+## FIGURE
+figure.figsize : 3.37, 1.97
+figure.dpi : 600
+
+## SAVING FIGURES
+savefig.bbox : tight
+savefig.pad_inches : 0.05
