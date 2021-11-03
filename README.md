@@ -15,7 +15,7 @@ python3 install.py
 
 2. Install to a specific directory (e.g., a project)
 ```bash
-python3 install.py ~/myproject/styles
+python3 install.py -o ~/myproject/styles
 ```
 
 Use the `-j` option to limit the journal styles that are installed. One or more
