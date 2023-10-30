@@ -27,7 +27,7 @@ import sys
 
 parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument('-o', dest='dest', type=str, default=None, help='Destination')
-parser.add_argument('-j', dest='journal', type=str, choices=['all','acs','aip'], nargs='+', default=['all'], help='Journal styles')
+parser.add_argument('-j', dest='journal', type=str, choices=['all','acs','aip','rsc'], nargs='+', default=['all'], help='Journal styles')
 args = parser.parse_args()
 
 # create list of source files
