@@ -16,7 +16,7 @@ axes.labelsize : 10
 axes.labelpad : 4
 axes.formatter.limits: -3,4
 # red, blue, green, orange, purple, pink, gold, grey, black
-axes.prop_cycle : cycler(color=['cc0000','0000cc','009900','ff8000','6f00ff','e500e5','e5c100','858585','000000'])
+axes.prop_cycle : cycler(color=['e41a1c','377eb8','4daf4a','ff7f00','984ea3','f781bf','e5c100','999999','000000'])
 
 ## TICKS
 xtick.top : True
