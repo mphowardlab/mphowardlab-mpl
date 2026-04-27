@@ -58,7 +58,7 @@ plt.style.use(['./mphowardlab.mplstyle','./aip.mplstyle'])
 
 ### Colors
 
-The default color cyle is based on [ColorBrewer][3]'s *Set1* pallete. These colors are printer safe and compatible with ColorBrewer's sequential and diverging palletes. The colors may be manually specified in plot commands as:
+The default color cycle is based on [ColorBrewer][3]'s *Set1* pallete. These colors are printer safe and compatible with ColorBrewer's sequential and diverging palettes. The colors may be manually specified in plot commands as:
 
 * `C0`: red
 * `C1`: blue
