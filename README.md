@@ -58,8 +58,7 @@ plt.style.use(['./mphowardlab.mplstyle','./aip.mplstyle'])
 
 ### Colors
 
-The default color cyle implements the following colors that may be manually specified
-in plot commands:
+The default color cycle is based on [ColorBrewer][3]'s *Set1* pallete. These colors are printer safe and compatible with ColorBrewer's sequential and diverging palettes. The colors may be manually specified in plot commands as:
 
 * `C0`: red
 * `C1`: blue
@@ -85,3 +84,4 @@ For detailed style file options, see this [tutorial][2] with an example
 
 [1]: https://matplotlib.org
 [2]: https://matplotlib.org/stable/tutorials/introductory/customizing.html
+[3]: https://colorbrewer2.org
