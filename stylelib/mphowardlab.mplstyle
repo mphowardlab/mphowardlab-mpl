@@ -13,6 +13,7 @@ mathtext.fontset : cm
 ### AXES
 axes.linewidth : 1
 axes.labelsize : 10
+axes.titlesize : 10
 axes.labelpad : 4
 axes.formatter.limits: -3,4
 # red, blue, green, orange, purple, pink, gold, grey, black
@@ -43,6 +44,7 @@ legend.borderpad : 0.2
 ## FIGURE
 figure.figsize : 3.37, 1.97
 figure.dpi : 600
+figure.titlesize : 10
 
 ## SAVING FIGURES
 savefig.bbox : tight
